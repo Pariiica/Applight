@@ -1,0 +1,265 @@
+/*
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  .items {
+    flex: 0 1 auto;
+    overflow-y: auto;
+    text-overflow.ellipsis;
+  }
+}
+*/
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.header{
+    background: #7a60ff;
+	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+    padding: 0 12%;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    
+}
+.navbar-logo{
+    flex: 0 1 auto;
+}
+.navbar-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+      
+}
+.navbar-list li{
+    flex: 1;
+    margin: 0 0.8em;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.banner{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.left-span{
+    padding: 2em 8em 2em 1em;
+}
+.left-span h1{
+    font-size: 2rem;
+    color: #fff;
+}
+.left-span p{
+    color: #fff;
+    margin-top: 3em;
+    font-size: 1rem;
+}
+.left-span img{
+    margin: 2em 1em 0 0;
+    flex: 0 0 100px;
+    max-width: 140px;
+    border-radius: 7px;
+    
+}
+.right-span{
+    padding: 3em 8em;
+}
+h1{
+    font-weight: 700px;
+    line-height: 1.2;
+    color: #212529;
+}
+p{
+    color: #818992;
+    
+}
+.about{
+    text-align: center;
+    background-color: #fff;
+    margin: 5rem;
+}
+.about p{
+    margin: 1rem 30% 5rem 30%;
+    font-size:medium;
+}
+.about-section{
+    display: flex;
+    margin: 0 auto;
+    padding:0 7rem
+}
+.about-section h2{
+    font-weight: 600px;
+    font-size: 1.25rem;
+}
+.about-section p{
+    font-size: 0.9rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-logo{
+    width: 5rem;
+    height: 5rem;
+    padding: 2rem;
+	background: #7a60ff;
+	background:  linear-gradient(to left, #7a60ff, #cd9ffa);
+	color: #ffffff;;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+button{
+    padding: 0.8rem 2.5rem;
+    margin: 5rem 0 1rem 0;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #8e1efc;
+    border: 2px solid #8e1efc;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #8e1efc;
+    color: #fff;
+}
+.video-section{
+    height: 18rem;
+    background: url(img/video-bg.jpg) no-repeat fixed center;
+	background-size: cover;
+	overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.video-section div{
+    width: 100%;
+    padding-top: 4rem;
+    background: linear-gradient(to left, rgba(122, 96, 255, 0.90), rgba(205, 159, 250, 0.90));
+}
+.video-section div h1{
+    color: #fff;
+    font-size: 4rem,
+}
+.video-section div img{
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.features{
+    text-align: center;
+    background-color: #fff;
+    margin: 5rem;
+}
+.features h1{
+    font-weight: 600px;
+    font-size: 2em;
+}
+.features p{
+    font-size:medium;
+    max-width: 50em;
+    margin: 0 auto;
+    direction: rtl;
+}
+.features-span{
+    display: flex;
+    justify-content: center;
+    text-align: center
+    ;max-width: 70rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    
+}
+.features-span div{
+    text-indent: 1rem;
+    margin: 2rem 0;
+    padding-bottom: 1rem;
+    
+}.features-span div h4{
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+
+.span2{
+    padding: 0 3rem;
+}
+.team{
+    background-color: #fafafa;
+    border-top: 1px solid #e4e4e4;
+    text-align: center;
+    padding: 4rem 5rem 1rem 4rem;
+}
+.team p{
+    margin: 1rem 30% 5rem 30%;
+    font-size:medium;
+}
+.users{
+    display: flex;
+    justify-content: center;
+    
+}
+.users span{
+    margin:  0 4rem;
+}
+.users img{
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+}
+.users h4{
+    color: rgb(142, 30, 252);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.users p{
+    font-size: 0.8rem;
+    margin-top: -1rem;
+}
+.testimonials{
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to left, rgba(122, 96, 255, 0.90), rgba(205, 159, 250, 0.90));
+}
+.testimonials p{
+    margin: 1rem 30% 5rem 30%;
+    font-size:medium;
+    color: #fff;
+}
+.testimonials h1{
+    color: #fff;
+}
+.slider{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+}
+.slider-item{
+    display: flex;
+    border: none;
+	background-color: rgba(255, 255, 255, 0.81);
+	border-radius: 5px;
+	box-shadow:none;
+}
+.slider-img{
+    width: 10rem;
+    height: 10rem;
+    border: 1px #fff solid;
+    border-radius: 80%;
+    
+}
