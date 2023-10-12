@@ -92,7 +92,7 @@ p{
     margin: 5rem;
 }
 .about p{
-    margin: 1rem 30% 5rem 30%;
+    margin: 2rem 30% 5rem 30%;
     font-size:medium;
 }
 .about-section{
@@ -203,7 +203,7 @@ button:hover{
     padding: 4rem 5rem 1rem 4rem;
 }
 .team p{
-    margin: 1rem 30% 5rem 30%;
+    margin: 2rem 30% 5rem 30%;
     font-size:medium;
 }
 .users{
@@ -236,7 +236,7 @@ button:hover{
     
 }
 .testimonials p{
-    margin: 1rem 30% 5rem 30%;
+    margin: 2rem 30% 5rem 30%;
     font-size:medium;
     color: #fff;
 }
@@ -321,4 +321,29 @@ button:hover{
     color: #818992;
 	font-weight:300;
 	
+}
+.contact{
+    text-align: center;
+}
+.contact p{
+    margin: 2rem 20% 5rem 20%;
+    font-size:medium;
+}
+.contact-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.contact-form{
+    max-width: 100%;
+    display: block;
+    flex-grow: 2;
+}
+.contact-info{
+    flex-grow: 1;
+}
+.message , .submit , .subject {
+    width: 100%;
 }
