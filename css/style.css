@@ -18,33 +18,34 @@
 
 body {
 	font-family: 'Poppins', sans-serif;
-	font-size: 14px;
-    margin: 0 auto;
+	font-size: 15px;
+    margin: 0;
     max-width: 100%;
 }
 .header{
     background: #7a60ff;
 	background: linear-gradient(to left, #7a60ff, #cd9ffa);
-    padding: 0 12%;
+    padding: 0 12rem;
     color: #fff;
 }
 .navbar{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 1rem 1rem;
-    
+    justify-content: center;
+    padding: 1rem;
+    position: fixed;
 }
-
+.navbar.scrolled {
+    max-width: 100%;
+    background-color: #fff;
+}
 .navbar-list{
     list-style: none;
     display: flex;
-    justify-content: center;
-      
+    justify-content: flex-start;
+   
 }
 .navbar-list li{
-
     margin: 0 0.8em;
 }
 a{
@@ -54,9 +55,10 @@ a{
 .banner{
     display: flex;
     justify-content: space-between;
+    padding-top: 4rem;
 }
 .left-span{
-    padding: 2em 8em 2em 1em;
+    padding: 5em 8em 2em 1em;
 }
 .left-span h1{
     font-size: 2rem;
@@ -324,6 +326,7 @@ button:hover{
 }
 .contact{
     text-align: center;
+    padding-bottom: 2rem;
 }
 .contact p{
     margin: 2rem 20% 5rem 20%;
@@ -344,6 +347,57 @@ button:hover{
 .contact-info{
     flex-grow: 1;
 }
-.message , .submit , .subject {
-    width: 100%;
+input{
+    height: 3rem;
+	padding: 0 1rem;
+	background: #fff;
+	border-radius: 30px;
+	margin-bottom: 1rem;
+    border: 1px solid #e4e4e4;
+}
+.name{
+    margin-left: 0;
+    width: 40%;
+}
+.email{
+    margin-right: 0;
+    width: 40%;
+}
+.subject{
+    width: 86%;
+}
+.submit{
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(to left, rgba(122, 96, 255, 0.90), rgba(205, 159, 250, 0.90));
+    border: none;
+    color: #fff;
+}
+.message{
+    width: 86%;
+    padding: 0.5rem 1rem;
+	background: #fff;
+	border-radius: 30px;
+	margin-bottom: 1rem;
+    border: 1px solid #e4e4e4;
+}
+.contact-info{
+    background: linear-gradient(to left, rgba(122, 96, 255, 0.90), rgba(205, 159, 250, 0.90));
+    height: 23rem;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-info-item p{
+    color: #fff;
+}
+.contact-info-item {
+    display: flex;
+    width: 10rem;
+    height: 5rem;
+    align-items: center;
+}
+.contact-info-item img{
+    width: 2rem;
+    height: 2rem;
 }
