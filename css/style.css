@@ -20,3 +20,14 @@
 .nav-link{
     color: #fff;
 }
+.banner{
+    background: linear-gradient(to left, #7a60ff, #cd9ffa);
+    padding: 0 10rem;
+}
+.banner-content{
+    color: #fff;
+}
+.banner-content img{
+    max-width: 8rem;
+    
+}
