@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: linear-gradient(to left, #7a60ff, #cd9ffa);
+    padding: 2.5rem 0 2.5rem 0;
+}
+.container-fluid{
+    position: fixed;
+    padding: 0 12rem;
+}
+.navbar.scrolled{
+    background-color: #7a60ff;
+    color: #7a60ff;
+}
+.nav-item{
+    margin: 0.5rem;
+}
+.nav-link{
+    color: #fff;
+}
